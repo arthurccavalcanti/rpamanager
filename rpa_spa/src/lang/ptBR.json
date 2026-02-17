@@ -1,0 +1,151 @@
+{
+    "loginPage.login": "Login",
+    "loginPage.successMessage": "Entrando...",
+    "login.error": "{error}",
+    "loginPage.loginButton": "Entrar",
+
+    "registerPage.register": "Cadastre-se",
+    "registerPage.registerButton": "Cadastrar",
+    "registerPage.successMessage": "Cadastro realizado. Encaminhando para o login...",
+
+    "email": "E-mail",
+    "password": "Senha",
+    "confirmPassword": "Confirme a senha",
+    "welcome": "Bem-vindo(a), {user}",
+    "dataTable.noDataFound": "Nenhum dado encontrado.",
+    "search": "Pesquisar",
+
+    "adminPage.rpas": "Admin RPAs",
+    "adminPage.users": "Admin Usuários",
+    "adminPage.jobs": "Admin Processos",
+
+    "userPage.rpas": "Meus RPAS",
+    "userPage.jobs": "Meus processos",
+
+    "deleteError": "Erro ao deletar: {error}",
+    "editError": "Erro ao deletar: {error}",
+    "update": "Atualizar",
+    "searchQuery": "Pesquisando por {query}",
+
+    "adminJobs.title": "Admin Processos",
+    "adminRPAs.title": "Admin RPAs",
+    "adminUsers.title": "Admin Usuários",
+
+    "header.userPage": "Página do Usuário",
+    "header.adminPage": "Página do Admin",
+    "header.title": "Sistema de RPAs",
+    "header.admin": "Administrador",
+    "header.user": "Usuário",
+    "header.login": "Login",
+    "header.register": "Cadastro",
+    "header.myPage": "Minha Página",
+    "header.resetPassword": "Redefinir senha",
+    "header.logout": "Logout",
+
+    "resetPasswordPage.button": "Redefinir a senha",
+    "pageSize.itemsPerPage": "Itens por página",
+
+    "pageButtons.previousPage": "Página anterior",
+    "pageButtons.nextPage": "Próxima página",
+    "pageButtons.page": "Página {pageNum} de {totalPages}",
+    "pageButtons.itemsFound": "{totalItems} itens encontrados. Visualizando de {pageSize} em {pageSize}.",
+
+    "orderBy.orderBy": "Ordernar por",
+    "orderBy.pickAnOption": "Escolha uma opção",
+
+    "orderDir.order": "Ordem",
+    "orderDir.asc": "Ascendente",
+    "orderDir.desc": "Descendente",
+
+    "error.unexpectedServerResponse": "Houve um erro inesperado ao processar a mensagem do servidor.",
+    "error.noServerResponse": "Sem resposta do servidor.",
+    "error.unexpectedError": "Houve um erro inesperado.",
+
+    "404Page.goHome": "Voltar para a página inicial",
+    "404Page.404Message": "404: Página não encontrada.",
+
+    "webSocket.warning": "Houve um erro com o processo para a URL {url}",
+    "webSocket.success": "O processo para a URL {url} está pronto!",
+    "webSocket.connection": "Conexão: {status}",
+    "webSocket.connectionActive": "Ativa.",
+    "webSocket.connectionInactive": "Desativada.",
+
+    "return": "Voltar",
+    "confirm": "Confirmar",
+    "confirmChanges": "Salvar alterações",
+
+    "createJob.button": "Criar processo",
+    "createJob.title": "Criar processo",
+    "createJob.rpaLabel": "RPA",
+    "createJob.pickRPA": "-- Escolha um RPA --",
+    "createJob.urlLabel": "URL",
+    "createJob.pickURL": "-- Escolha uma URL --",
+    "createJob.detailsLabel": "Detalhes",
+    "createJob.create": "Criar processo",
+    "createJob.successMessage": "Processo cadastrado.",
+
+    "createRPA.button": "Criar RPA",
+    "createRPA.title": "Criar RPA",
+    "createRPA.name": "Nome do RPA",
+    "createRPA.type": "Tipo de RPA",
+    "createRPA.pickType": "-- Escolha um tipo --",
+    "createRPA.create": "Criar RPA",
+    "createRPA.successMessage": "RPA cadastrado.",
+
+    "createUser.sucessMessage": "Usuário cadastrado.",
+    "createUser.button": "Criar usuário",
+    "createUser.title": "Criar usuário",
+    "createUser.create": "Criar usuário",
+
+    "deleteItem.title": "Deletar item",
+    "deleteItem.dialog": "Deseja deletar o item?",
+
+    "editItem.title": "Editar item",
+    "editItem.confirm": "Salvar alterações",
+
+    "resetPassword.title": "Reset de senha",
+    "resetPassword.currentPass": "Senha atual",
+    "resetPassword.newPass": "Nova senha",
+    "resetPassword.confirmPass": "Confirme a nova senha",
+
+    "statusHeader": "Status",
+    "detailsHeader": "Detalhes",
+    "errorMessageHeader": "Mensagem de Erro",
+    "rpaNameHeader": "Nome do RPA",
+    "rpaTypeHeader": "Tipo do RPA",
+    "scheduleHeader": "Agendamento",
+    "resultHeader": "Resultado",
+    "startTimeHeader": "Início",
+    "endTimeHeader": "Finalização",
+    "urlHeader": "URL",
+    "jobsHeader": "Processos",
+    "usernameHeader": "Nome de usuário",
+    "passwordHeader": "Senha",
+    "roleHeader": "Role",
+
+    "yup.email.invalid": "Campo deve ser um e-mail válido.",
+    "yup.email.minLength": "Email deve ter no mínimo 5 caracteres.",
+    "yup.email.maxLength": "Email deve ter no máximo 100 caracteres.",
+    "yup.email.required": "Email é obrigatório.",
+
+    "yup.password.minLength": "Senha deve ter no mínimo 6 caracteres.",
+    "yup.password.maxLength": "Senha deve ter no máximo 30 caracteres.",
+    "yup.password.required": "Senha é obrigatória.",
+
+    "yup.confirmPassword.match": "Senhas devem ser iguais.",
+    "yup.confirmPassword.required": "Confirmar a senha é obrigatório.",
+
+    "yup.rpaName.required": "Nome é obrigatório.",
+    "yup.rpaName.minLength": "Nome deve ter no mínimo 5 caracteres.",
+    "yup.rpaName.maxLength": "Nome deve ter no máximo 100 caracteres.",
+
+    "yup.rpaType.required": "Escolha um tipo de RPA.",
+    "yup.url.required": "Escolha uma URL.",
+    "yup.rpa.required": "Escolha um RPA.",
+    "yup.details.maxLength": "O campo deve ter no máximo 100 caracteres.",
+    "yup.url.fieldRequired": "Campo URL é obrigatório.",
+    "yup.rpaName.fieldRequired": "Campo nome é obrigatório.",
+    "yup.rpaName.editMinLength": "Nome deve ter no mínimo 1 caractere.",
+    "yup.rpaType.fieldRequired": "Tipo de RPA é obrigatório.",
+    "yup.role.required": "Escolha uma role."
+}

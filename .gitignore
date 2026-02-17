@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# Java & Maven
+target/
+*.class
+
+# Python
+__pycache__/
+venv/
+*.pyc
+
+# IDEs (Eclipse, IntelliJ, VS Code, Netbeans)
+.idea/
+.vscode/
+*.iml
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Secrets & Local Config
+.env
+.DS_Store

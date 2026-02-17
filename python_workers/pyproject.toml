@@ -1,0 +1,12 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+description = ""
+version = "0.1.0"
+name = "python_workers"
+requires-python = ">=3.13.5"
+dependencies = [
+    "celery",
+    "playwright"
+]
