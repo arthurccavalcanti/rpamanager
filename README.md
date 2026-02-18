@@ -2,6 +2,8 @@
 
 > Web app to manage RPA scripts.
 
+<img src="demo_gifs/rpa2.gif"/>
+
 - Create and configure instances of bots
 - Send tasks to an asynchronous queue
 - Receive real-time notifications and examine results
@@ -32,6 +34,8 @@ Additionaly, it also makes use of a relational DB (Postgres) and a message broke
 ---
 ### How to run it
 
+<img src="demo_gifs/rpa1.gif"/>
+
 - if you're in a macOS environment, you can simply execute the setup and startup bash scripts
 
 **SpringBoot App**
@@ -42,7 +46,7 @@ Additionaly, it also makes use of a relational DB (Postgres) and a message broke
     - Download dependencies: `mvn install`
 
 **Python Task Queue**
-- Install a python interpreter**
+- Install a python interpreter
     - `brew install python`
     - Create virtual environment in `/python_workers`
         - `python3 -m venv venv`
@@ -98,7 +102,7 @@ Additionaly, it also makes use of a relational DB (Postgres) and a message broke
 - Add password reset feature
 - Improve 404 page UI
 
-**Sring app**
+**Spring app**
 - process specification
     - allow users to search for a process by process number or RPA type
 - implement DB transactions
